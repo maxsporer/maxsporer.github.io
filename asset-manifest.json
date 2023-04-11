@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.6f1ccee1.js",
-    "static/js/787.da67c9f6.chunk.js": "/static/js/787.da67c9f6.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.6f1ccee1.js.map": "/static/js/main.6f1ccee1.js.map",
-    "787.da67c9f6.chunk.js.map": "/static/js/787.da67c9f6.chunk.js.map"
+    "main.css": "/maxsporer.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/maxsporer.github.io/static/js/main.dd2b67d4.js",
+    "static/js/787.da67c9f6.chunk.js": "/maxsporer.github.io/static/js/787.da67c9f6.chunk.js",
+    "static/media/logo.svg": "/maxsporer.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/maxsporer.github.io/index.html",
+    "main.073c9b0a.css.map": "/maxsporer.github.io/static/css/main.073c9b0a.css.map",
+    "main.dd2b67d4.js.map": "/maxsporer.github.io/static/js/main.dd2b67d4.js.map",
+    "787.da67c9f6.chunk.js.map": "/maxsporer.github.io/static/js/787.da67c9f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6f1ccee1.js"
+    "static/js/main.dd2b67d4.js"
   ]
 }
