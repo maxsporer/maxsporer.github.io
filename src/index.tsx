@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <Projects />
   },
   {
-    path: "fas",
+    path: "fritz",
     element: <FAS />,
   },
 ]);

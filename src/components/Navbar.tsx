@@ -26,7 +26,7 @@ function Navbar() {
       >
         <li className={liClass}><Link className="link-secondary" to="/resume">Resume</Link></li>
         <li className={liClass}><Link className="link-secondary" to="/projects">Projects</Link></li>
-        <li className={liClass}><Link className="link-secondary" to="/fas">Fritz</Link></li>
+        <li className={liClass}><Link className="link-secondary" to="/fritz">Fritz</Link></li>
       </ul>
     </div>
   )
