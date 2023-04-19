@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const iconClass ="text-green-1 hover:text-orange";
+const iconClass ="text-primary hover:text-secondary";
 
 const githubIcon = (
 	<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor">
@@ -20,7 +20,7 @@ let year = new Date().getFullYear();
 
 function Footer() {
 	return (
-		<div className="font-josefin mt-8 flex-col">
+		<div className="font-head mt-8 flex-col">
 			<div className="flex justify-center gap-x-4 mb-3">
 				<Link className={iconClass} to="https://github.com/maxsporer">
 					{githubIcon}
@@ -35,7 +35,7 @@ function Footer() {
 				</Link>
 			</div>
 			<div className="flex justify-center">
-				{month} {year}
+				{month.toLowerCase()} {year}
 			</div>
 		</div>
 	)    

@@ -3,32 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --green-1: #008248;
-  --green-2: #00704a;
-  --orange: #C84630;
-  --off-white: #ebe8e2;
+  --primary: #253f4b;
+  --secondary: #ff0800;
+  --tertiary: #4C6085;
+  --link: #ea3c53;
+  --bg: #f7f7f7;
 }
 
 body {
-  background-color: var(--off-white);
+  background-color: var(--bg);
+  color: var(--primary);
 }
 
 .link-primary {
-  color: var(--green-1);
+  color: var(--link);
   text-decoration: underline;
 
   &:hover {
-    color: var(--orange);
     text-decoration: none;
   }
 }
 
 .link-secondary {
-  color: var(--green-1);
+  color: var(--primary);
 
   &:hover {
-    color: var(--orange);
+    color: var(--secondary);
   }
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('fonts/Spectral-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('fonts/Spectral-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('fonts/Spectral-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('fonts/Spectral-SemiBold.ttf');
+  font-weight: 600;
 }
 
 @font-face {
@@ -39,4 +63,10 @@ body {
 @font-face {
   font-family: 'PTSans';
   src: url('fonts/PTSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSans-Bold.ttf');
+  font-weight: bold;
 }

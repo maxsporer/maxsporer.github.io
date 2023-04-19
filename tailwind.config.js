@@ -7,14 +7,14 @@ module.exports = {
     extend: {
       colors: {
         "black": "#000000",
-        "green-1": "var(--green-1)",
-        "green-2": "var(--green-2)",
-        "orange": "var(--orange)",
-        "offwhite": "var(--offwhite)",
+        "primary": "var(--primary)",
+        "secondary": "var(--secondary)",
+        "tertiary": "var(--tertiary)",
+        "bg": "var(--bg)",
       },
       fontFamily: {
-        ptsans: ['PTSans','sans-serif'],
-        josefin: ['Josefin','serif'],
+        body: ['Spectral','sans-serif'],
+        head: ['Spectral','serif'],
       }
     },
   },

@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <Projects />
   },
   {
-    path: "fritz",
+    path: "FAS",
     element: <FAS />,
   },
 ]);
@@ -35,7 +35,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <div className="w-10/12 mx-auto my-14 max-w-[750px] font-ptsans">
+    <div className="w-10/12 mx-auto my-14 max-w-[750px] font-body">
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>

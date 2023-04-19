@@ -8,7 +8,7 @@ function About() {
   const isSmBp = width < 720;
 
   return (
-    <div className="text-lg">
+    <div className="text-lg p-2">
       <div className={classNames({
         "flex": !isSmBp,
         "flex-col": isSmBp})}
@@ -28,8 +28,8 @@ function About() {
           "w-7/12 px-4 flex flex-col justify-center relative gap-y-4": !isSmBp,
           "pt-8 flex flex-col gap-y-4": isSmBp})}
         >
-          <div className="font-josefin text-green-2 text-3xl">
-            About
+          <div className="font-head text-primary text-3xl">
+            about
           </div>
           <div>
             Hello! I am a software engineer open to work. I am based in New York, NY and have experience with front end development in React. I'm also interested in working in ML and AI.
@@ -37,10 +37,10 @@ function About() {
         </div>
       </div>
       <div className="pt-8">
-        I previously worked at <a className="link-primary" href="https://www.yext.com/">Yext</a> as a Software Engineer. Prior to that, I was a Data Analyst at <a className="link-primary" href="https://www.linkit.com/">LinkIt</a>. I graduated from Princeton in 2021 with a degree in Operations Research and Financial Engineering. I grew up in Morristown, NJ and my hobbies include running, kickboxing, and playing the guitar and piano.
+        I previously worked at <a className="link-primary" href="https://www.yext.com/">Yext</a> as a Software Engineer. Prior to that, I was a Data Analyst at <a className="link-primary" href="https://www.linkit.com/">LinkIt</a>. I graduated from Princeton in 2021 with a degree in Operations Research and Financial Engineering. I grew up in Morristown, NJ and my hobbies include running, kickboxing, and playing the guitar.
       </div>
       <div className="pt-8">
-        Thank you to <a className="link-primary" href="https://czye17.github.io/">Chris Ye</a> for letting me borrow his website layout.
+      Thanks to <a className="link-primary" href="https://czye17.github.io/">Chris Ye</a> for letting me borrow his website design.
       </div>
     </div>
   )
