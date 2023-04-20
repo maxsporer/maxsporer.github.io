@@ -23,7 +23,7 @@ const headClass = "text-xl font-head"
 const subHeadClass = "text-lg text-primary font-head"
 
 const skillsBody = (
-  <ul className="p-2 flex flex-col gap-y-2 min-w-[600px]">
+  <ul className="p-2 flex flex-col gap-y-2">
     <li>React, Javascript, Typescript, CSS3, HTML5</li>
     <li>Python (Pandas, Scikit-Learn, TensorFlow/Keras, XLWings)</li>
     <li>C, Java, Git, Google Cloud CP</li>
