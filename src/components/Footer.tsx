@@ -29,11 +29,6 @@ function Footer() {
 					{linkedinIcon}
 				</Link>
 			</div>
-			<div className="flex justify-center mb-2">
-				<Link className="link-primary" to="mailto: abc@example.com">
-					maxsporer@gmail.com
-				</Link>
-			</div>
 			<div className="flex justify-center">
 				{month.toLowerCase()} {year}
 			</div>
