@@ -10,8 +10,6 @@ function Navbar() {
   const liClass = "flex items-center";
 
   const loc = useLocation();
-  console.log(loc.pathname);
-  console.log(loc.pathname == '/resume');
 
   return (
     <div className={classNames({
@@ -40,14 +38,14 @@ function Navbar() {
             resume
           </Link>
         </li>
-        <li className={liClass}>
+        {/* <li className={liClass}>
           <Link
             className={classNames({
             "link-secondary": loc.pathname != '/projects',
             "text-secondary": loc.pathname == '/projects'
             })}
             to="/projects">projects</Link>
-        </li>
+        </li> */}
         <li className={liClass}>
           <Link
             className={classNames({

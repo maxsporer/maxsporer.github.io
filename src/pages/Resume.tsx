@@ -42,7 +42,8 @@ const profBody = (
       bodyParts={[
         "New York, NY",
         "Built and/or maintained websites using React and Closure with a combined view count of over 104,000,000+ page views for over 50+ clients in the financial services and restaurant industries among others",
-        "Responsible for front-end mobile first web development with a focus on search engine optimization (SEO), page speed, and web accessibility across different devices and browsers"
+        "Responsible for front-end mobile first web development with a focus on search engine optimization (SEO), page speed, and web accessibility across different devices and browsers",
+        "Provided guidance to new software engineers on technical concepts, best practices, and development tools"
       ]}
     />
     <Job
@@ -54,7 +55,8 @@ const profBody = (
       bodyParts={[
         "New York, NY",
         "Developed Python and SQL scripts to automate Excel models in order to increase production of student analytics reports",
-        "Compiled reports analyzing and capturing trends in student test performance"
+        "Cleaned and processed raw test result data files sent by school districts for data warehousing purposes",
+        "Interviewed potential Data Analysts and Solutions Center Representatives"
       ]}
     />
     <Job
