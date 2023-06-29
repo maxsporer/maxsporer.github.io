@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import useViewport from '.././utils/useViewport';
+import resume from '.././files/Resume.pdf';
 
 function Navbar() {
   var classNames = require('classnames');
@@ -28,15 +29,15 @@ function Navbar() {
         "justify-center mt-8": isSmBp})}
       >
         <li className={liClass}>
-          <Link
+          <a
             className={classNames({
-            "link-secondary": loc.pathname != '/resume',
-            "text-secondary": loc.pathname == '/resume'
+            "link-secondary": loc.pathname !== '/resume',
+            "text-secondary": loc.pathname === '/resume'
             })}
-            to="/resume"
+            href={resume}
           >
             resume
-          </Link>
+          </a>
         </li>
         {/* <li className={liClass}>
           <Link
@@ -49,8 +50,8 @@ function Navbar() {
         <li className={liClass}>
           <Link
             className={classNames({
-            "link-secondary": loc.pathname != '/fas',
-            "text-secondary": loc.pathname == '/fas'
+            "link-secondary": loc.pathname !== '/fas',
+            "text-secondary": loc.pathname === '/fas'
             })}
             to="/fas">fas</Link>
         </li>

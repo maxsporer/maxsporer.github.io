@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+Publishes site to github pages at [maxsporer.github.io](https://maxsporer.github.io/)
+
 ### `npm start`
 
 Runs the app in the development mode.\

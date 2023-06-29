@@ -7,8 +7,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
-import Resume from './pages/Resume';
-import Projects from './pages/Projects';
+// import Resume from './pages/Resume';
+// import Projects from './pages/Projects';
 import FAS from './pages/FAS';
 
 const router = createHashRouter([
@@ -16,14 +16,14 @@ const router = createHashRouter([
     path: "/",
     element: <App />,
   },
-  {
-    path: "resume",
-    element: <Resume />
-  },
-  {
-    path: "projects",
-    element: <Projects />
-  },
+  // {
+  //   path: "resume",
+  //   element: <Resume />
+  // },
+  // {
+  //   path: "projects",
+  //   element: <Projects />
+  // },
   {
     path: "FAS",
     element: <FAS />,

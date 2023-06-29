@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import useViewport from '.././utils/useViewport';
 import {isMobile} from 'react-device-detect';
 
 const downArrow = (

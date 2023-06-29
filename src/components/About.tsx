@@ -21,7 +21,7 @@ function About() {
             "flex max-h-full w-auto": !isSmBp,
             "w-2/3 flex justify-center": isSmBp})}
           >
-            <img className={classNames({"max-h-full w-auto object-contain": true})} src={maxSporer} alt="picture of Max Sporer" />
+            <img className={classNames({"max-h-full w-auto object-contain": true})} src={maxSporer} alt="Max Sporer" />
           </div>
         </div>
         <div className={classNames({
@@ -32,7 +32,7 @@ function About() {
             about
           </div>
           <div>
-            Hello! I am a software engineer open to work. I am based in New York, NY and have experience with front end development in React. I'm also interested in working in ML and AI.
+            Hello! I am a software engineer open to work. I am based in New York, NY and have experience with front end development in React as well as data science/analysis using Python, SQL, and Excel. I'm also interested in working in ML and AI.
           </div>
         </div>
       </div>
