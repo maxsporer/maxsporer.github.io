@@ -32,7 +32,7 @@ function About() {
             about
           </div>
           <div>
-            Hello! I am a software engineer open to work. I am based in New York, NY and have experience with front end development in React as well as data science/analysis using Python, SQL, and Excel. I'm also interested in working in ML and AI.
+            Hello! I am a software engineer at <a className="link-primary" href="https://www.boozallen.com/">Booz Allen</a>. I live in Brooklyn, NY and have experience with front end development as well as data science and analysis.
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ function About() {
         You can contact me at maxsporer (at) gmail (dot) com
       </div>
       <div className="pt-4">
-      Thanks to <a className="link-primary" href="https://czye17.github.io/">Chris Ye</a> for letting me borrow his website design.
+      Thanks to <a className="link-primary" href="https://czye17.github.io/">Chris Ye</a> for inspiring the design of this site.
       </div>
     </div>
   )
