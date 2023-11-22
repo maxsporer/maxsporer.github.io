@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4421e4a.css",
-    "main.js": "/static/js/main.380a6f82.js",
+    "main.js": "/static/js/main.8bbd2622.js",
     "static/js/787.da67c9f6.chunk.js": "/static/js/787.da67c9f6.chunk.js",
     "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
@@ -11,14 +11,14 @@
     "static/media/Spectral-Regular.ttf": "/static/media/Spectral-Regular.d42b6921428e94a0c610.ttf",
     "static/media/max-sporer.jpg": "/static/media/max-sporer.4b6411b54588785fef70.jpg",
     "static/media/JosefinSans.ttf": "/static/media/JosefinSans.1bfcfba29eda50476f98.ttf",
-    "static/media/Resume.pdf": "/static/media/Resume.1fd15cde0524d877e933.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.79930212cdb5bc2dc1ef.pdf",
     "index.html": "/index.html",
     "main.e4421e4a.css.map": "/static/css/main.e4421e4a.css.map",
-    "main.380a6f82.js.map": "/static/js/main.380a6f82.js.map",
+    "main.8bbd2622.js.map": "/static/js/main.8bbd2622.js.map",
     "787.da67c9f6.chunk.js.map": "/static/js/787.da67c9f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4421e4a.css",
-    "static/js/main.380a6f82.js"
+    "static/js/main.8bbd2622.js"
   ]
 }
