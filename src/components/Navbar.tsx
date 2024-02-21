@@ -47,14 +47,14 @@ function Navbar() {
             })}
             to="/projects">projects</Link>
         </li> */}
-        <li className={liClass}>
+        {/* <li className={liClass}>
           <Link
             className={classNames({
             "link-secondary": loc.pathname !== '/fas',
             "text-secondary": loc.pathname === '/fas'
             })}
             to="/fas">fas</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   )
