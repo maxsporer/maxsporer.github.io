@@ -37,7 +37,7 @@ function About() {
         </div>
       </div>
       <div className="pt-8">
-        I previously worked at <a className="link-primary" href="https://www.yext.com/">Yext</a> as a Software Engineer. Prior to that, I was a Data Analyst at <a className="link-primary" href="https://www.linkit.com/">LinkIt</a>. I graduated from Princeton in 2021 with a degree in Operations Research and Financial Engineering. I grew up in Morristown, NJ and my hobbies include running, kickboxing, and playing the guitar.
+        I previously worked at <a className="link-primary" href="https://www.yext.com/">Yext</a> as a Software Engineer. Prior to that, I was a Data Analyst at <a className="link-primary" href="https://www.linkit.com/">LinkIt</a>. I graduated from Princeton in 2021 with a degree in Operations Research and Financial Engineering.
       </div>
       <div className="pt-4">
         You can contact me at maxsporer (at) gmail (dot) com
